@@ -8,7 +8,6 @@ function M:change(path)
     end
 
     M.currentpath = M.path .. "/" .. path
-    print("A")
     M.current = require(M.currentpath)
 end
 
