@@ -81,7 +81,7 @@ local M = {}
 local Scenes = require("scenes")
 
 function M.load()
-    love.timer.sleep( s ) -- Wait for 5 seconds
+    love.timer.sleep(5) -- Wait for 5 seconds
     Scenes:change("game") -- Switch to game scene
 end
 
